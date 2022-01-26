@@ -1,1 +1,10 @@
-<p>pilota works!</p>
+<table border="1">
+    <tr *ngFor="let pilota of pilotak">
+        <td>{{pilota.ID}}</td>
+        <td>{{pilota.nev}}</td>
+        <td>{{pilota.szuletes}}</td>
+        <td>{{pilota.nemzet}}</td>
+        <td>{{pilota.magassag}}</td>
+        <td>{{pilota.csapat}}</td>
+    </tr>
+</table>
